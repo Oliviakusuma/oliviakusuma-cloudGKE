@@ -7,9 +7,7 @@ const HOST = '0.0.0.0'
 
 const app = express()
 app.get('/', (req, res) => {
-    res.send('Nama    : Olivia Kusuma<br/> 
-              NIM     : 52019023<br/>
-              Jurusan : Teknik Informatika')
+    res.send('Nama    : Olivia Kusuma<br/> NIM     : 52019023 <br/> Jurusan : Teknik Informatika')
 })
 
 app.listen(PORT, HOST)
